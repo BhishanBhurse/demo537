@@ -5,13 +5,13 @@ function printHelloWorld(){
 		#body of funct.
 		echo "hello world"
 }
-
 printHelloWorld
 
+
 #parametarized func
-function parametarized{
+function parametarized(){
 		#body
 		local firstName=$1
-		echo "Hello world" $firstName
+		echo "Hello world"$firstName
 }
 parametarized "Bhishan"
